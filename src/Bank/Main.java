@@ -35,12 +35,12 @@ public class Main {
            }else
                return false;
         }
-        boolean wyplac(int ile)
+        boolean wyplac(int ile34)
         {
-            if(saldo < ile)
+            if(saldo < ile34)
                 return true;
             else
-                saldo -= ile;
+                saldo -= ile34;
             return true;
         }
         private int saldo = 100;
